@@ -1,0 +1,17 @@
+<library id="swagger" symbolicName="com.wordnik.swagger">
+	<name>Swagger</name>
+	<description>Swagger document your API with style.</description>
+	<version>2.9</version>
+	<homeUri>https://helloreverb.com/developers/swagger</homeUri>
+	<downloadUri>https://github.com/wordnik/swagger-core/wiki/Downloads
+	</downloadUri>
+	<provider>Reverb Technologies, Inc</provider>
+
+	<package id="swagger-core" name="com.wordnik.swagger.core">
+		<maven>
+			<groupId>com.wordnik</groupId>
+			<artifactId>swagger.models</artifactId>
+			<version>1.5.0</version>
+		</maven>
+	</package>
+</library>
